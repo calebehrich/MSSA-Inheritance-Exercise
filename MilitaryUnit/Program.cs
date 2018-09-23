@@ -8,8 +8,14 @@ namespace MilitaryUnit
 {
     class Program
     {
+        
+
         static void Main(string[] args)
         {
+            DoWork work = new DoWork();
+            work.ImplementResupply();
+            work.ImplementPatrol();
+            work.ImplementAssault();            
         }
     }
 }
